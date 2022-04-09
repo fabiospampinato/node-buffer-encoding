@@ -6,7 +6,7 @@ import type {Encoding} from './types';
 
 /* MAIN */
 
-const Encoding = {
+const BufferEncoding = {
 
   /* API */
 
@@ -40,4 +40,4 @@ const Encoding = {
 
 /* EXPORT */
 
-export default Encoding;
+export default BufferEncoding;
