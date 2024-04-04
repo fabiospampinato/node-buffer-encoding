@@ -41,3 +41,4 @@ const BufferEncoding = {
 /* EXPORT */
 
 export default BufferEncoding;
+export type {Encoding};
