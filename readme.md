@@ -7,7 +7,7 @@ If you have access to Node's Buffer you probably just want to use it directly in
 ## Install
 
 ```sh
-npm install --save node-buffer-encoding
+npm install node-buffer-encoding
 ```
 
 ## Usage
@@ -16,15 +16,19 @@ npm install --save node-buffer-encoding
 import Encoding from 'node-buffer-encoding';
 
 // Encode an Uint8Array with the given encoding
+
 Encoding.encode ( new Uint8Array ([ 0, 255 ]), 'hex' ); // => '00ff'
 
 // Encode a string with the given encoding
+
 Encoding.encodeStr ( 'hello', 'base64' ); // => 'aGVsbG8='
 
 // Decode a string with the given encoding to an Uint8Array
+
 Encoding.decode ( '00ff', 'hex' ); // => Uint8Array(2) [ 0, 255 ]
 
 // Decode a string with the given encoding to a string
+
 Encoding.decodeStr ( 'aGVsbG8=', 'base64' ); // => 'hello'
 ```
 
