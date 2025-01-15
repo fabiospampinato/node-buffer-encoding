@@ -2,6 +2,7 @@
   "name": "node-buffer-encoding",
   "repository": "github:fabiospampinato/node-buffer-encoding",
   "description": "A little wrapper around Node's Buffer that provides encoding/decoding for all supported encodings.",
+  "license": "MIT",
   "version": "1.0.2",
   "type": "module",
   "main": "dist/index.js",
@@ -21,9 +22,9 @@
     "encoding"
   ],
   "devDependencies": {
-    "@types/node": "^20.4.7",
-    "fava": "^0.2.1",
-    "tsex": "^3.0.1",
-    "typescript": "^5.1.6"
+    "@types/node": "^18.19.70",
+    "fava": "^0.3.4",
+    "tsex": "^4.0.2",
+    "typescript": "^5.7.3"
   }
 }
