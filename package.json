@@ -3,7 +3,7 @@
   "repository": "github:fabiospampinato/node-buffer-encoding",
   "description": "A little wrapper around Node's Buffer that provides encoding/decoding for all supported encodings.",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
